@@ -10,5 +10,6 @@ public class Main {
         litere.afisareLitere();
 
         l1.arrayStringLitereAlfabet();
+        l1.afisareNumereMatrice();
     }
 }

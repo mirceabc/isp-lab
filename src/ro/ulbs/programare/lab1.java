@@ -57,4 +57,17 @@ public class lab1 {
             System.out.println(s);
         }
     }
+
+    public void afisareNumereMatrice()
+    {
+        int[] numere = {12, 3, 500, 1200, 50, 40, 100, 250, 8};
+
+        for(int i=0; i<numere.length; i++)
+        {
+            System.out.print(numere[i] + " ");
+            if((i+1)%3==0) {
+                System.out.println();
+            }
+        }
+    }
 }
