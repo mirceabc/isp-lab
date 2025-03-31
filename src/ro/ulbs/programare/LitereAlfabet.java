@@ -4,15 +4,17 @@ public class LitereAlfabet {
 
     public void afisareLitere(){
 
-        for(int i = 'a'; i <= 'z'; i++){
-            System.out.print((char)i + " ");
+        for (char c = 'a'; c <= 'z'; c++) {
+            System.out.print(c);
         }
 
         System.out.println();
 
-        for(int i = 'A'; i <= 'Z'; i++){
-            System.out.print((char)i + " ");
+        for (char c = 'A'; c <= 'Z'; c++) {
+            System.out.print(c);
         }
+
+        System.out.println();
 
     }
 

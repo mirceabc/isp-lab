@@ -8,5 +8,7 @@ public class Main {
 
         LitereAlfabet litere = new LitereAlfabet();
         litere.afisareLitere();
+
+        l1.arrayStringLitereAlfabet();
     }
 }
