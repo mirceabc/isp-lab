@@ -1,4 +1,6 @@
-package ro.ulbs.paradigme.lab6;
+package ro.ulbs.paradigme.lab7;
+
+import ro.ulbs.paradigme.lab6.ACalculator;
 
 public class NewIntCalculator extends ACalculator {
     public NewIntCalculator(int initial) {
