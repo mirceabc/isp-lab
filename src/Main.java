@@ -2,6 +2,7 @@ import ro.ulbs.programare.lab1;
 import ro.ulbs.programare.LitereAlfabet;
 import ro.ulbs.paradigme.lab3.util.PasswordMaker;
 import ro.ulbs.paradigme.lab2.Application;
+import ro.ulbs.paradigme.lab4.Colectii;
 
 public class Main {
 
@@ -34,6 +35,7 @@ public class Main {
 
     private static void laborator4(){
         System.out.println("Laborator 4");
+        Colectii.main(new String[]{});
     }
 
     public static void main(String[] args) {
