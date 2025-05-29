@@ -3,6 +3,8 @@ import ro.ulbs.programare.LitereAlfabet;
 import ro.ulbs.paradigme.lab3.util.PasswordMaker;
 import ro.ulbs.paradigme.lab2.Application;
 import ro.ulbs.paradigme.lab4.Colectii;
+import ro.ulbs.paradigme.lab5.File_IO;
+import java.io.IOException;
 
 public class Main {
 
@@ -38,10 +40,21 @@ public class Main {
         Colectii.main(new String[]{});
     }
 
+    private static void laborator5(){
+        System.out.println("Laborator 5");
+        try {
+            File_IO.main(null);
+            File_IO.generateRandomWordsFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void main(String[] args) {
        laborator1();
        laborator2(args);
        laborator3();
        laborator4();
+       laborator5();
     }
 }
