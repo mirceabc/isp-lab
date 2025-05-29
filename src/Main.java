@@ -7,6 +7,7 @@ import ro.ulbs.paradigme.lab4.Colectii;
 import ro.ulbs.paradigme.lab5.File_IO;
 import ro.ulbs.paradigme.lab6.CalculatorTest;
 import ro.ulbs.paradigme.lab9.lab9;
+import main.MainApp;
 
 public class Main {
 
@@ -62,6 +63,11 @@ public class Main {
         lab9.main(new String[]{});
     }
 
+    private static void laborator10(){
+        System.out.println("Laborator 10");
+        MainApp.main(new String[]{});
+    }
+
     public static void main(String[] args) {
        laborator1();
        laborator2(args);
@@ -70,5 +76,6 @@ public class Main {
        laborator5();
        laborator6();
        laborator9();
+       laborator10();
     }
 }
