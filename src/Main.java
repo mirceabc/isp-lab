@@ -1,10 +1,11 @@
+import java.io.IOException;
 import ro.ulbs.programare.lab1;
 import ro.ulbs.programare.LitereAlfabet;
 import ro.ulbs.paradigme.lab3.util.PasswordMaker;
 import ro.ulbs.paradigme.lab2.Application;
 import ro.ulbs.paradigme.lab4.Colectii;
 import ro.ulbs.paradigme.lab5.File_IO;
-import java.io.IOException;
+import ro.ulbs.paradigme.lab6.CalculatorTest;
 
 public class Main {
 
@@ -50,11 +51,17 @@ public class Main {
         }
     }
 
+    private static void laborator6(){
+        System.out.println("Laborator 6");
+        CalculatorTest.main(new String[]{});
+    }
+
     public static void main(String[] args) {
        laborator1();
        laborator2(args);
        laborator3();
        laborator4();
        laborator5();
+       laborator6();
     }
 }
