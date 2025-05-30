@@ -6,7 +6,7 @@ import storage.SensorData;
 
 import java.util.Scanner;
 
-public class MainApp {
+public class MainAppLab10 {
 
     public static void main(String[] args) {
 
